@@ -1,0 +1,67 @@
+body{
+  background-color: rgb(7, 172, 172);
+}
+.heading{
+    color: #fff;
+    background-color: rgb(47, 47, 78);
+    margin: 0;
+    padding: 10px 15px;
+}
+.FlexContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.FlexContainer input {
+  width: 350px;
+  outline: none;
+  height: 30px;
+  padding: 11px 16px;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 12px 6px;
+}
+.FlexContainer button{
+    width: 134px;
+    outline: none;
+    height: 40px;
+    padding: 11px 16px;
+    border: 1px solid #4e3c68;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 12px 6px;
+    background-color: #4e3c68;
+    color: #fff;
+}
+.TitleContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,330px);
+}
+.Box{
+  width:250px;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 3px 5px 8px black;
+  border-radius: 10px;
+  margin: 8px 15px;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.note-item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  word-wrap: break-word;                
+}
+
+.note-item button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
